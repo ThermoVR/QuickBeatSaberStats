@@ -1,0 +1,16 @@
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\bin\Debug\QuickBeatSaberStats.exe.config
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\bin\Debug\QuickBeatSaberStats.exe
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\bin\Debug\QuickBeatSaberStats.pdb
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\QuickBeatSaberStats.csproj.AssemblyReference.cache
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\QuickBeatSaberStats.csproj.SuggestedBindingRedirects.cache
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\MainWindow.g.cs
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\App.g.cs
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\QuickBeatSaberStats_MarkupCompile.cache
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\QuickBeatSaberStats_MarkupCompile.lref
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\MainWindow.baml
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\QuickBeatSaberStats.g.resources
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\QuickBeatSaberStats.Properties.Resources.resources
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\QuickBeatSaberStats.csproj.GenerateResource.cache
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\QuickBeatSaberStats.csproj.CoreCompileInputs.cache
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\QuickBeatSaberStats.exe
+C:\Users\eging\Desktop\QuickBeatSaberStats\QuickBeatSaberStats\obj\Debug\QuickBeatSaberStats.pdb
