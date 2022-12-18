@@ -1,0 +1,29 @@
+﻿<Window x:Class="QuickBeatSaberStats.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuickBeatSaberStats"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="Platform" Margin="10,10,561,315">
+            <Grid Height="97" Margin="0,0,-12,0">
+                <RadioButton x:Name="optSteam" Content="Steam" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" IsChecked="True" GroupName="Platform" Height="20" Width="81"/>
+                <RadioButton x:Name="optOculus" Content="Oculus" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" IsChecked="False" GroupName="Platform" Height="23" Width="81"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="btnConfirmPlatform" Content="Confirm" HorizontalAlignment="Left" Margin="158,59,0,0" VerticalAlignment="Top" Height="32" Width="58" Click="ConfirmPlatform" RenderTransformOrigin="0.598,0.782"/>
+        <GroupBox Header="Specific Song Info" Margin="380,20,10,173">
+            <Grid>
+                <TextBlock x:Name="txtSongName" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Song Name : " VerticalAlignment="Top" Width="378"/>
+                <TextBlock x:Name="txtSongSubName" HorizontalAlignment="Center" Margin="0,31,0,0" TextWrapping="Wrap" Text="Song SubName : " VerticalAlignment="Top" Width="378"/>
+                <TextBlock x:Name="txtAuthor" HorizontalAlignment="Center" Margin="0,52,0,0" TextWrapping="Wrap" Text="Song Author : " VerticalAlignment="Top" Width="378"/>
+                <TextBlock x:Name="txtMapper" HorizontalAlignment="Center" Margin="0,73,0,0" TextWrapping="Wrap" Text="Song Mapper : " VerticalAlignment="Top" Width="378"/>
+                <TextBlock x:Name="txtBPM" HorizontalAlignment="Center" Margin="0,94,0,0" TextWrapping="Wrap" Text="Song BPM : " VerticalAlignment="Top" Width="378"/>
+            </Grid>
+        </GroupBox>
+        <ListBox x:Name="lstAllSongs" Margin="10,141,425,60" SelectionChanged="displayMapStats"/>
+        <TextBlock x:Name="txtSongCount" HorizontalAlignment="Left" Margin="10,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="182"/>
+    </Grid>
+</Window>
