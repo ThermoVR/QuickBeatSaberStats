@@ -8,20 +8,6 @@ namespace QuickBeatSaberStats
 {
     internal class SmallFunctionLibrary
     {
-        public static string PlatformCheck(bool platform)
-        {
-            string filePath = "";
-            if(platform == true)
-            {
-                filePath = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Beat Saber\\Beat Saber_Data\\CustomLevels";
-            }
-            else if(platform == false)
-            {
-                filePath = "C:\\Program Files\\Oculus\\Software\\Software\\hyperbolic-magnetism-beat-saber\\Beat Saber_Data\\CustomLevels";
-            }
-            return filePath;
-        }
-
         public static string SongName(string fileContent)
         {
             string[] byLines = fileContent.Split('"');
