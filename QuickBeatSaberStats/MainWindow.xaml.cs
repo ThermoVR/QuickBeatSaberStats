@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -30,11 +31,15 @@ namespace QuickBeatSaberStats
         {
             if (optSteam.IsChecked == true)
             {
-                allSongs = program.loadAllSongs(SmallFunctionLibrary.PlatformCheck(true));
+                allSongs = program.loadAllSongs("C:\\Program Files(x86)\\Steam\\steamapps\\common\\Beat Saber\\Beat Saber_Data\\CustomLevels");
+            }
+            else if(optOculus.IsChecked == true)
+            {
+                allSongs = program.loadAllSongs("C:\\Program Files\\Oculus\\Software\\Software\\hyperbolic-magnetism-beat-saber\\Beat Saber_Data\\CustomLevels");
             }
             else
             {
-                allSongs = program.loadAllSongs(SmallFunctionLibrary.PlatformCheck(false));
+                allSongs = program.loadAllSongs(txtCustomPath.Text);
             }
             lstAllSongs.Items.Clear();
             for(int i = 0; i < allSongs.directoryCount; i++)
